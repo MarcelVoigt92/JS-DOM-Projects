@@ -1,1 +1,1 @@
-# A collection of some easy DOM - Manipulation projects
+# A collection of some DOM - Manipulation projects

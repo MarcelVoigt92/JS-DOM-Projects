@@ -8,10 +8,10 @@ modeButton.addEventListener("click", () => {
   const titleMode = document.querySelector(".title-mode");
   if (titleMode.innerHTML === "Night Mode") {
     titleMode.innerHTML = "Day Mode";
-    titleMode.style.color = "#ffbf00";
+    titleMode.style.filter = "invert(1)";
   } else {
     titleMode.innerHTML = "Night Mode";
-    titleMode.style.color = "#f0f0f0";
+    titleMode.style.filter = "invert(0)";
   }
 
   // Icon change

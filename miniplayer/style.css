@@ -1,0 +1,29 @@
+#music-player {
+  width: 300px;
+  height: 300px;
+  background-color: #282828;
+}
+
+#cover {
+  width: 80%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 10%;
+}
+
+#controls button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#track-info {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
